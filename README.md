@@ -1,4 +1,12 @@
 # Assignment-on-Array
 ## Task 1
 ## Description
-### ![image](https://github.com/Nayem1503019/Assignment-on-Array/assets/106160241/f7c631f0-6f67-4596-85af-c0c00c3a697f)
+Write a function that does the following task.
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.You may assume that each input would have exactly one solution, and you may not use the same element twice.You can return the answer in any order.
+Also, mention the Time and Space Complexity of your solution
+Use of C++ or JavaScript is preferred.
+## Constraints:
+2 <= nums.length <= 10^4 
+-10^9 <= nums[i] <= 10^9 
+-10^9 <= target <= 10^9
+Only one valid answer exists.
