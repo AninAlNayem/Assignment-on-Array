@@ -20,6 +20,6 @@ $\ Output: [0,1] $
 + **First Approach:** Bruteforce
 + Link: (https://github.com/Nayem1503019/Assignment-on-Array/blob/6a14ba6d6fbb2a963767c0fd94664399ae022f6d/Bruteforce.cpp)
   
-Time Complexity:  
+### Time Complexity:  
 $\ O(n^2) $     
-$\ n=10^4 $  so, $\ 10^8 $ loops will be finished in 1 second. So , it will pass.
+$\ n=10^4 $ => 10^8 $ loops will be finished in 1 second. So , it will pass.
