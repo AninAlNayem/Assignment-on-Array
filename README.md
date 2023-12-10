@@ -18,9 +18,7 @@ $\ Output: [0,1] $
 
 #### Solution  
 + **First Approach:** Bruteforce
-https://github.com/Nayem1503019/Assignment-on-Array/blob/bcba292b8b4dff71e6e35fb0d3440ee8b6e4569c/Bruteforce.cpp
-
-
+https://github.com/Nayem1503019/Assignment-on-Array/blob/2065962318d64a1a303cf3370ae0f080b2d3eda5/Bruteforce.cpp
 
 
 
