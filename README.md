@@ -1,4 +1,4 @@
-# Assignment-on-Array
+## Assignment-on-Array
 ## Task 1
 ## Description
 Write a function that does the following task.
