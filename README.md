@@ -17,7 +17,11 @@ $\ Output: [0,1] $
 **Explanation: Because  nums[0] + nums[1] =9, we return [0, 1].**
 
 #### Solution  
-+ **First Approach:** Bruteforce 
++ **First Approach:** Bruteforce
+` embedme `
+  
+for(int i=0;i<n;i++){
+}
 
 
 
