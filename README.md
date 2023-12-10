@@ -25,4 +25,6 @@ $`\ O(n^2) `$ , $`\ n=10^4  =>n^2=10^8  `$ loops  will  be  finished  in  1  sec
 ### Space Complexity:
 $`\ O(1) `$
 
-+ **Second Approach:** 
++ **Second Approach:**
++ Link: (https://ideone.com/eI9VWo)
++ Link()
