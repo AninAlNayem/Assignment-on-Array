@@ -18,8 +18,15 @@ $\ Output: [0,1] $
 
 #### Solution  
 + **First Approach:** Bruteforce
-  
-[Bruteforce.cpp
-](https://github.com/Nayem1503019/Assignment-on-Array/blob/8f22372eafb4d7467b09f377083d9ee81cb4af52/Bruteforce.cpp)https://github.com/Nayem1503019/Assignment-on-Array/blob/8f22372eafb4d7467b09f377083d9ee81cb4af52/Bruteforce.cpp
-
+ ,,, 
+for(int i=0;i<n;i++){
+    for(int j=0;j<n;j++){
+       if(i!=j){
+         if(arr[i]+arr[j]==target){
+           return {i,j};
+         }
+       }
+     }
+}
+,,,
 
