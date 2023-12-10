@@ -21,10 +21,13 @@ $\ Output: [0,1] $
 + Link: (https://github.com/Nayem1503019/Assignment-on-Array/blob/6a14ba6d6fbb2a963767c0fd94664399ae022f6d/Bruteforce.cpp)
 + Time Complexity:  
 $`\ O(n^2) `$ , $`\ n=10^4  =>n^2=10^8  `$ loops  will  be  finished  in  1  second.  So ,   it   will   pass.
-+ Space Complexity: $`\ O(1) `$
++ Space Complexity: $`\ O(n) `$ \\ to store the data.
 
 **Second Approach:**
 + Link: (https://ideone.com/eI9VWo)
 + Link: (https://github.com/Nayem1503019/Assignment-on-Array/blob/c0f37fe5a6743d8cb7541d9cf3f39a914b60ef16/Task-1%3A%20Second%20Approach.cpp)
 + Time Complexity:<br />
 Time complexity of map::count  is $`\ O(logN) `$.As map stores each element with unique key, then it will return 1 if match if found, otherwise return 0. So the overall time complexity will be $`\ O(n)`$
++ Space Complexity: $`\ O(n) `$
+
+
