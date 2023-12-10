@@ -37,7 +37,7 @@ You are given an array prices where prices[i] is the price of a given stock on t
 Also, mention the Time and Space Complexity of your solution
 #### Constraints: 
 $`\ 1 <= prices.length <= 10^5 `$
-$`\ 0 <= prices[i] <= 10^4 ~$
+$`\ 0 <= prices[i] <= 10^4 `$
 
 
 
