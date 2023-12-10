@@ -28,6 +28,18 @@ $`\ O(n^2) `$ , $`\ n=10^4  =>n^2=10^8  `$ loops  will  be  finished  in  1  sec
 + Link: (https://github.com/Nayem1503019/Assignment-on-Array/blob/c0f37fe5a6743d8cb7541d9cf3f39a914b60ef16/Task-1%3A%20Second%20Approach.cpp)
 + Time Complexity:<br />
 Time complexity of map::count  is $`\ O(log(n)) `$.As map stores each element with unique key, then it will return 1 if match if found, otherwise return 0. So the overall time complexity will be $`\ O(nlog(n))`$
-+ Space Complexity: $`\ O(n) `$
++ Space Complexity: $`\ O(n) `$ extra map taken.
+
+### Task 2
+#### Description
+#### Write a function that does the following task.     
+You are given an array prices where prices[i] is the price of a given stock on the ith day.You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
+Also, mention the Time and Space Complexity of your solution
+#### Constraints: 
+$`\ 1 <= prices.length <= 10^5 `$
+$`\ 0 <= prices[i] <= 10^4 ~$
+
+
+
 
 
