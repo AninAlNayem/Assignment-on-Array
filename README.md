@@ -21,7 +21,7 @@ $\ Output: [0,1] $
 + Link: (https://github.com/Nayem1503019/Assignment-on-Array/blob/6a14ba6d6fbb2a963767c0fd94664399ae022f6d/Bruteforce.cpp)
 + Time Complexity:  
 $`\ O(n^2) `$ , $`\ n=10^4  =>n^2=10^8  `$ loops  will  be  finished  in  1  second.  So ,   it   will   pass.
-+ Space Complexity: $`\ O(n) `$ \\ to store the data.
++ Space Complexity: $`\ O(n) `$  to store the data.
 
 **Second Approach:**
 + Link: (https://ideone.com/eI9VWo)
