@@ -39,6 +39,12 @@ Also, mention the Time and Space Complexity of your solution
 $`\ 1 <= prices.length <= 10^5 `$ <br/>
 $`\ 0 <= prices[i] <= 10^4 `$
 
+#### Solution:   
++ Link: (https://ideone.com/w7i9QO)
++ Time Complexity: $`\ O(n) `$
++ Space Complexity: $`\ O(n) `$
+
+
 
 
 
