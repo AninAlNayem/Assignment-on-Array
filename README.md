@@ -19,7 +19,7 @@ $\ Output: [0,1] $
 #### Solution  
 + **First Approach:** Bruteforce
   
-Bruteforce.cpp
-
+[Bruteforce.cpp
+](https://github.com/Nayem1503019/Assignment-on-Array/blob/8f22372eafb4d7467b09f377083d9ee81cb4af52/Bruteforce.cpp)https://github.com/Nayem1503019/Assignment-on-Array/blob/8f22372eafb4d7467b09f377083d9ee81cb4af52/Bruteforce.cpp
 
 
