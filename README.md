@@ -23,4 +23,4 @@ $\ Output: [0,1] $
 ### Time Complexity:  
 $`\ O(n^2) `$ , $`\ n=10^4  =>n^2=10^8  `$ loops  will  be  finished  in  1  second.  So ,   it   will   pass. 
 ### Space Complexity:
-$`\O(1)`$
+$`\ O(1) `$
