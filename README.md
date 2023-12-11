@@ -19,6 +19,7 @@ $\ Output: [0,1] $
 #### Solution  
 **First Approach:** Bruteforce
 + Link: (https://github.com/Nayem1503019/Assignment-on-Array/blob/6a14ba6d6fbb2a963767c0fd94664399ae022f6d/Bruteforce.cpp)
+#### Code Snippet
 ```cpp
  for(int i=0;i<n;i++){
     for(int j=0;j<n;j++){
@@ -37,7 +38,8 @@ $`\ O(n^2) `$ , $`\ n=10^4  =>n^2=10^8  `$ loops  will  be  finished  in  1  sec
 **Second Approach:**
 + Link: (https://ideone.com/eI9VWo)
 + Link: (https://github.com/Nayem1503019/Assignment-on-Array/blob/c0f37fe5a6743d8cb7541d9cf3f39a914b60ef16/Task-1%3A%20Second%20Approach.cpp)
-  
+
+#### Code in CPP
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
@@ -92,6 +94,7 @@ Note that buying on day 2 and selling on day 1 is not allowed because you must b
 + Link: (https://ideone.com/w7i9QO)
 + Link: (https://github.com/Nayem1503019/Assignment-on-Array/blob/4f9be30ef63c5870c8af44d52a4d04ff9cde02a4/Task%202%20Max%20Profit.cpp)
 
+#### Code in CPP
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
