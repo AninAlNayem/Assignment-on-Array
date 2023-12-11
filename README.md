@@ -43,17 +43,15 @@ $`\ O(n^2) `$ , $`\ n=10^4  =>n^2=10^8  `$ loops  will  be  finished  in  1  sec
 using namespace std;
 
 void solve(vector<int>& nums, int target) {
-
         map<int,int>mp;
-
         for(int i=0;i<nums.size();i++){
-            int a=target-nums[i]; // nums[i]+a=target
-            if(mp.count(a)){ // checking if 'a' is present in the map.
-
-                printf("%d %d\n",i,mp[a]);
-                break;
+            int a=target-nums[i];            // nums[i]+a=target
+            if(mp.count(a)){                 // checking if 'a' is present in the map.
+               printf("%d %d\n",i,mp[a]);
+	       break;
             }
-            else mp[nums[i]]=i; // otherwise put the index(as a value) at nums[i](as key)
+            else
+               mp[nums[i]]=i;               // otherwise put the index(as a value) at nums[i](as key)
         }
 }
 
@@ -62,13 +60,11 @@ int main() {
 	int n;
 	scanf("%d",&n);
 	for(int i=0;i<n;i++){
-       int a;scanf("%d",&a);
-       nums.push_back(a);
+            int a;scanf("%d",&a);
+            nums.push_back(a);
 	}
-
-	int target;scanf("%d",&target);
-  solve(nums,target);
-
+        int target;scanf("%d",&target);
+        solve(nums,target);
 return 0;
 }
 ```
