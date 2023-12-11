@@ -39,15 +39,38 @@ $`\ O(n^2) `$ , $`\ n=10^4  =>n^2=10^8  `$ loops  will  be  finished  in  1  sec
 + Link: (https://github.com/Nayem1503019/Assignment-on-Array/blob/c0f37fe5a6743d8cb7541d9cf3f39a914b60ef16/Task-1%3A%20Second%20Approach.cpp)
   
 ```cpp
- for(int i=0;i<n;i++){
-    for(int j=0;j<n;j++){
-       if(i!=j){
-         if(arr[i]+arr[j]==target){
-           return {i,j};
-         }
-       }
-     }
-  }
+#include <bits/stdc++.h>
+using namespace std;
+
+void solve(vector<int>& nums, int target) {
+
+        map<int,int>mp;
+
+        for(int i=0;i<nums.size();i++){
+            int a=target-nums[i]; // nums[i]+a=target
+            if(mp.count(a)){ // checking if 'a' is present in the map.
+
+                printf("%d %d\n",i,mp[a]);
+                break;
+            }
+            else mp[nums[i]]=i; // otherwise put the index(as a value) at nums[i](as key)
+        }
+}
+
+int main() {
+	vector<int>nums;
+	int n;
+	scanf("%d",&n);
+	for(int i=0;i<n;i++){
+       int a;scanf("%d",&a);
+       nums.push_back(a);
+	}
+
+	int target;scanf("%d",&target);
+  solve(nums,target);
+
+return 0;
+}
 ```
 
 
