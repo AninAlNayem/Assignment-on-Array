@@ -91,6 +91,41 @@ Note that buying on day 2 and selling on day 1 is not allowed because you must b
 #### Solution:   
 + Link: (https://ideone.com/w7i9QO)
 + Link: (https://github.com/Nayem1503019/Assignment-on-Array/blob/4f9be30ef63c5870c8af44d52a4d04ff9cde02a4/Task%202%20Max%20Profit.cpp)
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int solve(vector<int>& prices) {
+    int mn=prices[0];
+    int res=-1;
+    int n=prices.size();
+    for(int i=1;i<n;i++){
+        mn=min(mn,prices[i]);
+        int tmp=prices[i]-mn;
+        if(tmp>res){
+           res=tmp;
+        }
+            
+    }
+return res>0?res:0;
+ }
+
+int main() {
+	// your code goes here
+	int n;scanf("%d",&n);
+	vector<int>prices;
+	for(int i=0;i<n;i++){
+		int a;scanf("%d",&a);
+		prices.push_back(a);
+	}
+	int res=solve(prices);
+	printf("%d\n",res);
+	
+	return 0;
+}
+```
+
 + Time Complexity: $`\ O(n) `$
 + Space Complexity: $`\ O(n) `$
 
